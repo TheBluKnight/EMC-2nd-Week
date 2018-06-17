@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>S.A.M Dashboard</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="fixed-sn light-blue-skin">
+
+    <!--Main Navigation-->
+    <header>
+
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg navbar-dark double-nav  fixed-top scrolling-navbar">
+
+            <!-- SideNav slide-out button -->
+            <div class="float-left">
+                <a href="#" data-activates="slide-out" class="button-collapse">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <!-- Breadcrumb-->
+            <div class="breadcrumb-dn mr-auto">
+                <p>Dashboard</p>
+            </div>
+
+            <!-- Links -->
+            <ul class="nav navbar-nav nav-flex-icons ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <i class="fa fa-envelope"></i>
+                        <span class="clearfix d-none d-sm-inline-block">Notifications</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link">
+                        <i class="fa fa-gear"></i>
+                        <span class="clearfix d-none d-sm-inline-block">Settings</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fa fa-user"></i>
+                        <span class="clearfix d-none d-sm-inline-block">Account</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#">Account Information</a>
+                        <a class="dropdown-item" href="index.html">Logout</a>
+                    </div>
+                </li>
+            </ul>
+
+        </nav>
+        <!--/.Navbar-->
+
+        <!-- Sidebar navigation -->
+        <div id="slide-out" class="side-nav fixed sn-bg-4">
+            <ul class="custom-scrollbar list-unstyled">
+                <!-- Logo -->
+                <li class="logo-sn waves-effect">
+                    <div class=" text-center">
+                        <a href="Dashboard.html" class="pl-0">
+                            <img src="img/Logo.png" class="">
+                        </a>
+                    </div>
+                </li>
+                <!--/. Logo -->
+                <!--Search Form-->
+                <li>
+                    <form class="search-form" role="search">
+                        <div class="form-group waves-light">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                    </form>
+                </li>
+                <!--/.Search Form-->
+                <!-- Side navigation links -->
+                <li>
+                    <ul class="collapsible collapsible-accordion">
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r">
+                                <i class="fa fa-chevron-right"></i> Devices
+                                <i class="fa fa-angle-down rotate-icon"></i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li>
+                                        <a href="DInfo.html" class="waves-effect">Device Info</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="waves-effect">Add/Remove Device</a>
+                                    </li>
+                                    <li>
+                                            <a href="#" class="waves-effect">Diagnose Device</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r">
+                                <i class="fa fa-hand-pointer-o"></i> Workers
+                                <i class="fa fa-angle-down rotate-icon"></i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="waves-effect">Worker Info</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="waves-effect">Add/Remove Worker</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r">
+                                <i class="fa fa-eye"></i> Farms
+                                <i class="fa fa-angle-down rotate-icon"></i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="waves-effect">Farms Info</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="waves-effect">Add/Remove Farms</a>
+                                    </li>
+                                    <li>
+                                            <a href="#" class="waves-effect">Add/Use Resources</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="collapsible-header waves-effect arrow-r">
+                                <i class="fa fa-envelope-o"></i> Reports
+                                <i class="fa fa-angle-down rotate-icon"></i>
+                            </a>
+                            <div class="collapsible-body">
+                                <ul>
+                                    <li>
+                                        <a href="#" class="waves-effect">Animal Report</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="waves-effect">Farm Report</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <!--/. Side navigation links -->
+            </ul>
+
+            <!-- Mask -->
+            <div class="sidenav-bg mask-strong"></div>
+
+        </div>
+        <!--/. Sidebar navigation -->
+
+    </header>
+    <!--Main Navigation-->
+
+    <!--Main layout-->
+    <main> 
+        
+        <br>
+            <div class="container-fluid">
+            <!--Section: Main panel-->
+            <section class="card card-cascade narrower mb-2">
+                    <div class="row">
+                            <!-- Card Wider -->
+                            <div class="column-md-1 offset-md-1">
+        <!-- Card image -->
+        <div class="thumbnail">
+          <img class="img-responsive" src="img/development-board-esp8266-module-v01-nodemcu-lua-p083060.jpg" style="max-width: 75%;" alt="Card image cap">
+        </div>
+        <div class="card">
+                <div class="card-body">
+                    <text-black>Device ID:<strong> #D140q1</strong>.<br></text-black>
+                    Another <strong>4</strong> users can control this device. <br>
+                    The Device is <strong><color-green>Functional</color-green></strong>. <br>
+
+                </div>
+            </div>
+      </div>
+                            <div class="column-md-1 offset-md-2">
+                                    <div class="view py-3 gradient-card-header info-color-dark text-white">
+                                            <h5 class="mb-0">Battery</h5>
+                                    </div>
+                                            <div class="card-body">
+                                                <span class="min-chart" id="chart-Battery" data-percent="95"><span class="percent"></span></span>
+                                                <h5><span class="label green text-white">Good <i class="fa fa-arrow-circle-up"></i></span></h5>
+                                            </div>
+                            </div>
+                            <div class="column-md-3">
+                                    <div class="view py-3 gradient-card-header info-color-dark text-white">
+                                            <h5 class="mb-0">Temperture</h5>
+                                    </div>
+                                            <div class="card-body ">
+                                                <span class="min-chart" id="chart-Temp" data-percent="56"><span class="percent"></span></span>
+                                    </div>
+                            </div>
+                            <div class="column-md-1">
+                                    <div class="view py-3 gradient-card-header info-color-dark text-white">
+                                            <h5 class="mb-0">Humidity</h5>
+                                    </div>
+                                            <div class="card-body">
+                                                <span class="min-chart" id="chart-Humd" data-percent="45"><span class="percent"></span></span>
+                                                <h5><span class="label blue text-white">Perfect <i class="fa fa-arrow-circle-up"></i></span></h5>
+
+                                    </div>
+                            </div>
+                            </div>
+                                    
+                 <br>
+                 <br>
+                 <br>
+                <!--Grid row-->
+                <div class="row">
+                              <div class="col">
+                                <!--Card image-->
+                              <div class="view gradient-card-header info-color-dark">
+                                <h5 class="mb-0">Device Location</h5>
+                              </div>
+                              <!--/Card image-->
+                
+                              <!--Card content-->
+                               <div class="card-body text-center">
+                                <!--Google map-->
+                                <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 400px"></div>
+                            </div>
+                         </div>
+                        </div>
+                       </section>
+                                </div>
+                                         </main>
+    <!--Main layout-->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+    </footer>
+    <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js"></script>
+    <script type="text/javascript" src="js/DMaps.js"></script>
+    <!-- <script src="js/BarCharts1.js"></script> -->
+    <script src="js/DeviceInfo.js"></script>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
+    if(!d.getElementById(id))
+    {js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);}}
+    (document,'script','weatherwidget-io-js');
+    </script>
+    <!-- Initializations -->
+    <script>
+            // SideNav Initialization
+            $(".button-collapse").sideNav();
+    
+            // Material Select Initialization
+            $(document).ready(function () {
+                $('.mdb-select').material_select();
+            });
+    
+            // Data Picker Initialization
+            $('.datepicker').pickadate();
+        </script>
+    </body>
+</html>
